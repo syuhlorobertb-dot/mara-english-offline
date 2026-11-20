@@ -17,7 +17,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o 'Project_v1.zip' -d .
+          unzip -o 'unzip -o 'MaraOfflineAndroid_Project_v1.zip' -d . -d .
           ls -la MaraOfflineAndroid
 
       - name: Set up Java
